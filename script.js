@@ -8,6 +8,7 @@ $(function () { // wait for document ready
   .to("#js-slideContainer", 1,   {x: "-40%"})
   .to("#js-slideContainer", 1,   {x: "-60%"})
   .to("#js-slideContainer", 1,   {x: "-80%"})
+  
 
 
   // create scene to pin and link animation
