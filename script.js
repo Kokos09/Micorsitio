@@ -4,10 +4,10 @@ $(function () { // wait for document ready
 
   var horizontalSlide = new TimelineMax()
   // animate panels
-  .to("#js-slideContainer", 1,   {x: "-20%"})	
-  .to("#js-slideContainer", 1,   {x: "-40%"})
-  .to("#js-slideContainer", 1,   {x: "-60%"})
-  .to("#js-slideContainer", 1,   {x: "-80%"})
+  .to("#js-slideContainer", 1,   {x: "-17.6%"})	
+  .to("#js-slideContainer", 1,   {x: "-33.1%"})
+  .to("#js-slideContainer", 1,   {x: "-50.1%"})
+  .to("#js-slideContainer", 1,   {x: "-83%"})
   
   
 

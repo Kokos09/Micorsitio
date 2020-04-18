@@ -21,7 +21,7 @@ html {
 
 .section {
   height: 100%;
-  width: calc( 100% / 5 );
+  width: calc(100%/6);
   float: left;
   position: relative;
 }
