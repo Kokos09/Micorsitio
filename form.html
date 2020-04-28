@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>COTIZAR</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,87 +15,89 @@
     <link rel="stylesheet" href="form/style.css">
 </head>
 <body>
-
-<div class="container" style="padding-top: 10%;">
+ 
+<div class="imagen overlay">
+  
+<div class="container" style="padding-top: 5%;">
             <form class="form-horizontal" role="form">
-                <h2>Registration</h2>
-                <div class="form-group">
-                    <label for="firstName" class="col-sm-3 control-label">Nombre</label>
-                    <div class="col-sm-9">
-                        <input type="text" id="firstName" placeholder="First Name" class="form-control" autofocus>
+                <h2>COTIZAR</h2>
+                <div class="form-group ">
+                    <label for="firstName" class="control-label  font "> Nombre*</label>
+                    <div class="font">
+                        <input type="text" id="firstName" placeholder="" class="form-control " autofocus>
+                    </div>
+                </div>
+                <div class="form-group center" >
+                    <label for="lastName" class=" control-label font">Apellido</label>
+                    <div class="center">
+                        <input type="text" id="lastName" placeholder="" class="form-control " autofocus >
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="lastName" class="col-sm-3 control-label">Appellido</label>
+                    <label for="phoneNumber" class="col-sm-3 control-label font">Teléfono:* </label>
                     <div class="col-sm-9">
-                        <input type="text" id="lastName" placeholder="Last Name" class="form-control" autofocus>
+                        <input type="phoneNumber" id="phoneNumber" placeholder="" class="form-control">
+                        <p class=" help-block fonts">Su número de teléfono no será revelado en ningún lado. </p>
                     </div>
                 </div>
+
                 <div class="form-group">
-                    <label for="email" class="col-sm-3 control-label">Email* </label>
+                    <label for="email" class="col-sm-3 control-label font">Email: </label>
                     <div class="col-sm-9">
-                        <input type="email" id="email" placeholder="Email" class="form-control" name= "email">
+                        <input type="email" id="email" placeholder="" class="form-control" name= "email">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="Establecimiento" class="col-sm-3 control-label">Establecimiento</label>
-                    <div class="col-sm-9" >
-                        <select name="cars" class="custom-select"> 
+                <div class="form-group font">
+                    <label for="Establecimiento" class="font col-sm-3 control-label">Lugar:</label>
+                    <div class="col-sm-9 font" >
+                        <select name="cars" class="custom-select font"> 
                             <option value="Casa">Casa</option>
                             <option value="Escuela">Escuela</option>
                             <option value="Oficina">Oficina</option>
-                            <option value="Automoviles">Automoviles</option>
-                            <option value="Comercios">Comercios</option>
-                            <option value="Casinos">Casinos</option>
-                            <option value="Bares">Bares</option>
-                            <option value="Restaurantes">Restaurantes</option>
-                            <option value="Hoteles">Hoteles</option>
-                            <option value="Guraderias">Guraderias</option>
-                            <option value="Veterinarios">Veterinarios</option>
-                            <option value="Áreas de Juegos">Áreas de Juegos</option>
-                            <option value="Tiendas de convivencia">Tiendas de convivencia</option>
-                            <option value="Supermecados">Supermecados</option>
+                            <option value="Automoviles">Automovil</option>
+                            <option value="Comercios">Comercio</option>
+                            <option value="Casinos">Casino</option>
+                            <option value="Bares">Bar</option>
+                            <option value="Restaurantes">Restaurante</option>
+                            <option value="Hoteles">Hotel</option>
+                            <option value="Guraderias">Guarderia</option>
+                            <option value="Veterinarios">Veterinaria</option>
+                            <option value="Áreas de Juegos">Área de Juego</option>
+                            <option value="Tiendas de convivencia">Tienda de convivencia</option>
+                            <option value="Supermecados">Supermecado</option>
                           </select>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="birthDate" class="col-sm-3 control-label">Fecha de nacimineto*</label>
-                    <div class="col-sm-9">
-                        <input type="date" id="birthDate" class="form-control">
-                    </div>
+                    <label for="Height" class="col-sm-3 control-label font">Habitación m<sup>3</sup>:</label>
+                <div class="col-sm-9">
+                    <input type="number" id="height" placeholder="Por favor ingrese la medida aproximada" class="form-control">
                 </div>
-                <div class="form-group">
-                    <label for="phoneNumber" class="col-sm-3 control-label">Celular </label>
-                    <div class="col-sm-9">
-                        <input type="phoneNumber" id="phoneNumber" placeholder="Phone number" class="form-control">
-                        <span class="help-block">Your phone number won't be disclosed anywhere </span>
-                    </div>
+            </div>
+            <div class="form-group fonts">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <span class="help-block fonts">ó</span>
                 </div>
-                <div class="form-group">
-                    <label class="control-label col-sm-3">Gender</label>
-                    <div class="col-sm-6">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="femaleRadio" value="Female">Female
-                                </label>
-                            </div>
-                            <div class="col-sm-4">
-                                <label class="radio-inline">
-                                    <input type="radio" id="maleRadio" value="Male">Male
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.form-group -->
-                <div class="form-group">
+            </div>
+             <div class="form-group">
+                    <label for="weight" class="col-sm-3 control-label font">Habitación m<sup>2</sup>:</label>
+                <div class="col-sm-9">
+                    <input type="number" id="weight" placeholder="Por favor ingrese la medida aproximada" class="form-control">
+                </div>
+            </div>
+               
+                <div class="form-group fonts">
                     <div class="col-sm-9 col-sm-offset-3">
-                        <span class="help-block">*Required fields</span>
+                        <span class="help-block fonts">*Obligatorio</span>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Register</button>
+                <button type="submit" class="btn btn-primary btn-block font">Enviar</button>
             </form> <!-- /form -->
         </div> <!-- ./container -->
+
+           
         <script src="form/style.js"></script>
+
+    </div>
 </body>
 </html>
