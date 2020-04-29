@@ -1,3 +1,10 @@
+body { 
+  background: url('../img/cvirus.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 *[role="form"] {
     max-width: 530px;
     padding: 5px;
@@ -77,7 +84,7 @@
   }
 
   .imagen{
-    background-image: url('../img/cvirus.jpg');
+    
     background-size: cover;
   }
 
